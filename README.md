@@ -46,7 +46,7 @@ IDLE → LEARN(1프레임) → LUTC(CDF→LUT) → STREAM(4프레임) → 반복
 
 ## ⚙️ 동작 순서
 
-```mermaid
+
 graph TD
     A[IDLE] -->|i_valid| B{lut_valid?}
     B -->|Y| C[STREAM<br/>o_gray_eq = lut[i_gray]]
