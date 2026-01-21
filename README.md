@@ -46,14 +46,30 @@ IDLE → LEARN(1프레임) → LUTC(CDF→LUT) → STREAM(4프레임) → 반복
 
 ## ⚙️ 동작 순서 (수정)
 
-```mermaid
-stateDiagram-v2
-    [*] --> IDLE
-    IDLE --> LEARN : !lut_valid
-    IDLE --> STREAM : lut_valid
-    LEARN --> LUTC : i_end
-    LUTC --> IDLE : LUT완료
-    STREAM --> IDLE : use_cnt==3
+              ┌─────────────┐
+          i_valid  │   IDLE    │
+              └─────┬──────┘
+                    │
+            ┌───────▼──────┐ lut_valid?
+            │              │
+          YES│     NO      │
+            │              │
+    ┌───────▼──────┐ ┌─────▼──────┐
+    │   STREAM     │ │   LEARN    │
+    │(4프레임)     │ │(1프레임)   │
+    └──────┬──────┘ └─────┬──────┘
+           │               │
+    ┌──────▼──────┐        │ i_end
+use_cnt==3 │ │ ▼
+│ │ ┌──────▼──────┐
+└─────────────┼─│ LUTC │ ← 2사이클
+│ │ CDF→LUT │
+│ └──────┬──────┘
+│ │
+└───────▼────────┐
+IDLE │ o_done 펄스
+│
+다음 프레임 │
 
 ## 🧪 검증 방법
 
