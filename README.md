@@ -44,17 +44,16 @@ IDLE → LEARN(1프레임) → LUTC(CDF→LUT) → STREAM(4프레임) → 반복
 | `o_gray_eq` | out | 8 | 이퀄라이즈드 출력 |
 | `o_done` | out | 1 | LUT 생성 완료 펄스 |
 
-## ⚙️ 동작 순서
+## ⚙️ 동작 순서 (수정)
 
-
-graph TD
-    A[IDLE] -->|i_valid| B{lut_valid?}
-    B -->|Y| C[STREAM<br/>o_gray_eq = lut[i_gray]]
-    B -->|N| D[LEARN<br/>hist[i_gray]++]
-    D -->|i_end| E[LUTC<br/>CDF → LUT 생성]
-    C -->|i_end<br/>use_cnt==3| A
-    E -->|LUT완료| F[IDLE<br/>o_done 펄스]
-```
+```mermaid
+stateDiagram-v2
+    [*] --> IDLE
+    IDLE --> LEARN : !lut_valid
+    IDLE --> STREAM : lut_valid
+    LEARN --> LUTC : i_end
+    LUTC --> IDLE : LUT완료
+    STREAM --> IDLE : use_cnt==3
 
 ## 🧪 검증 방법
 
@@ -107,5 +106,3 @@ parameter HEIGHT = 240;  // 프레임 세로
 - [ ] 파이프라인 추가 (2stage)
 - [ ] AXI Stream 인터페이스
 - [ ] Vivado IP 통합
-
-**이걸 전부 복사해서 `README.md`로 저장하세요!** 완벽합니다.
