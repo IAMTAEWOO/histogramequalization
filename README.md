@@ -108,5 +108,4 @@ parameter HEIGHT = 240;  // 프레임 세로
 - [ ] 파이프라인 추가 (2stage)
 - [ ] AXI Stream 인터페이스
 - [ ] Vivado IP 통합
-- [ ] ICoS 2026 논문 작성
 
