@@ -1,0 +1,1026 @@
+ 
+****************************************
+Report : area
+Design : top_hist_eq
+Version: V-2023.12-SP5-5
+Date   : Fri Oct 31 14:38:49 2025
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /home/hufsemi_instructor/class/Synopsys_Labs_Lectures/Labs_and_PDK_DK/DK/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                        11765
+Number of nets:                         61829
+Number of cells:                        54718
+Number of combinational cells:          32349
+Number of sequential cells:             11134
+Number of macros/black boxes:               0
+Number of buf/inv:                       5340
+Number of references:                       2
+
+Combinational area:              68452.923826
+Buf/Inv area:                     9646.798197
+Noncombinational area:          100401.876700
+Macro/Black Box area:                0.000000
+Net Interconnect area:           93707.274636
+
+Total cell area:                168854.800526
+Total area:                     262562.075162
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-    Black-
+                                  Total        Total    national    national     boxes   Design
+--------------------------------  -----------  -------  ----------  -----------  ------  -------------------------------------
+top_hist_eq                       168854.8005    100.0      0.0000       0.0000  0.0000  top_hist_eq
+u_eq                              168308.3909     99.7  43447.9499   94229.9898  0.0000  hist_eq_core
+u_eq/add_106                          51.8454      0.0     51.8454       0.0000  0.0000  hist_eq_core_DW01_inc_0_DW01_inc_1
+u_eq/add_127                          78.7846      0.0     78.7846       0.0000  0.0000  hist_eq_core_DW01_add_27_DW01_add_0
+u_eq/clk_gate_cdf_acc_reg              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_822
+u_eq/clk_gate_cdf_acc_reg_0            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_821
+u_eq/clk_gate_cdf_min_found_reg        7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_0
+u_eq/clk_gate_cdf_min_reg              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_823
+u_eq/clk_gate_cdf_reg[0]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_819
+u_eq/clk_gate_cdf_reg[100]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_719
+u_eq/clk_gate_cdf_reg[101]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_718
+u_eq/clk_gate_cdf_reg[102]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_717
+u_eq/clk_gate_cdf_reg[103]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_716
+u_eq/clk_gate_cdf_reg[104]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_715
+u_eq/clk_gate_cdf_reg[105]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_714
+u_eq/clk_gate_cdf_reg[106]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_713
+u_eq/clk_gate_cdf_reg[107]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_712
+u_eq/clk_gate_cdf_reg[108]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_711
+u_eq/clk_gate_cdf_reg[109]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_710
+u_eq/clk_gate_cdf_reg[10]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_809
+u_eq/clk_gate_cdf_reg[110]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_709
+u_eq/clk_gate_cdf_reg[111]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_708
+u_eq/clk_gate_cdf_reg[112]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_707
+u_eq/clk_gate_cdf_reg[113]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_706
+u_eq/clk_gate_cdf_reg[114]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_705
+u_eq/clk_gate_cdf_reg[115]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_704
+u_eq/clk_gate_cdf_reg[116]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_703
+u_eq/clk_gate_cdf_reg[117]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_702
+u_eq/clk_gate_cdf_reg[118]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_701
+u_eq/clk_gate_cdf_reg[119]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_700
+u_eq/clk_gate_cdf_reg[11]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_808
+u_eq/clk_gate_cdf_reg[120]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_699
+u_eq/clk_gate_cdf_reg[121]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_698
+u_eq/clk_gate_cdf_reg[122]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_697
+u_eq/clk_gate_cdf_reg[123]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_696
+u_eq/clk_gate_cdf_reg[124]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_695
+u_eq/clk_gate_cdf_reg[125]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_694
+u_eq/clk_gate_cdf_reg[126]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_693
+u_eq/clk_gate_cdf_reg[127]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_692
+u_eq/clk_gate_cdf_reg[128]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_691
+u_eq/clk_gate_cdf_reg[129]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_690
+u_eq/clk_gate_cdf_reg[12]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_807
+u_eq/clk_gate_cdf_reg[130]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_689
+u_eq/clk_gate_cdf_reg[131]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_688
+u_eq/clk_gate_cdf_reg[132]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_687
+u_eq/clk_gate_cdf_reg[133]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_686
+u_eq/clk_gate_cdf_reg[134]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_685
+u_eq/clk_gate_cdf_reg[135]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_684
+u_eq/clk_gate_cdf_reg[136]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_683
+u_eq/clk_gate_cdf_reg[137]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_682
+u_eq/clk_gate_cdf_reg[138]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_681
+u_eq/clk_gate_cdf_reg[139]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_680
+u_eq/clk_gate_cdf_reg[13]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_806
+u_eq/clk_gate_cdf_reg[140]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_679
+u_eq/clk_gate_cdf_reg[141]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_678
+u_eq/clk_gate_cdf_reg[142]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_677
+u_eq/clk_gate_cdf_reg[143]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_676
+u_eq/clk_gate_cdf_reg[144]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_675
+u_eq/clk_gate_cdf_reg[145]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_674
+u_eq/clk_gate_cdf_reg[146]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_673
+u_eq/clk_gate_cdf_reg[147]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_672
+u_eq/clk_gate_cdf_reg[148]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_671
+u_eq/clk_gate_cdf_reg[149]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_670
+u_eq/clk_gate_cdf_reg[14]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_805
+u_eq/clk_gate_cdf_reg[150]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_669
+u_eq/clk_gate_cdf_reg[151]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_668
+u_eq/clk_gate_cdf_reg[152]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_667
+u_eq/clk_gate_cdf_reg[153]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_666
+u_eq/clk_gate_cdf_reg[154]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_665
+u_eq/clk_gate_cdf_reg[155]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_664
+u_eq/clk_gate_cdf_reg[156]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_663
+u_eq/clk_gate_cdf_reg[157]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_662
+u_eq/clk_gate_cdf_reg[158]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_661
+u_eq/clk_gate_cdf_reg[159]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_660
+u_eq/clk_gate_cdf_reg[15]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_804
+u_eq/clk_gate_cdf_reg[160]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_659
+u_eq/clk_gate_cdf_reg[161]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_658
+u_eq/clk_gate_cdf_reg[162]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_657
+u_eq/clk_gate_cdf_reg[163]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_656
+u_eq/clk_gate_cdf_reg[164]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_655
+u_eq/clk_gate_cdf_reg[165]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_654
+u_eq/clk_gate_cdf_reg[166]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_653
+u_eq/clk_gate_cdf_reg[167]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_652
+u_eq/clk_gate_cdf_reg[168]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_651
+u_eq/clk_gate_cdf_reg[169]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_650
+u_eq/clk_gate_cdf_reg[16]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_803
+u_eq/clk_gate_cdf_reg[170]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_649
+u_eq/clk_gate_cdf_reg[171]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_648
+u_eq/clk_gate_cdf_reg[172]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_647
+u_eq/clk_gate_cdf_reg[173]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_646
+u_eq/clk_gate_cdf_reg[174]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_645
+u_eq/clk_gate_cdf_reg[175]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_644
+u_eq/clk_gate_cdf_reg[176]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_643
+u_eq/clk_gate_cdf_reg[177]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_642
+u_eq/clk_gate_cdf_reg[178]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_641
+u_eq/clk_gate_cdf_reg[179]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_640
+u_eq/clk_gate_cdf_reg[17]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_802
+u_eq/clk_gate_cdf_reg[180]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_639
+u_eq/clk_gate_cdf_reg[181]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_638
+u_eq/clk_gate_cdf_reg[182]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_637
+u_eq/clk_gate_cdf_reg[183]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_636
+u_eq/clk_gate_cdf_reg[184]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_635
+u_eq/clk_gate_cdf_reg[185]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_634
+u_eq/clk_gate_cdf_reg[186]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_633
+u_eq/clk_gate_cdf_reg[187]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_632
+u_eq/clk_gate_cdf_reg[188]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_631
+u_eq/clk_gate_cdf_reg[189]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_630
+u_eq/clk_gate_cdf_reg[18]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_801
+u_eq/clk_gate_cdf_reg[190]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_629
+u_eq/clk_gate_cdf_reg[191]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_628
+u_eq/clk_gate_cdf_reg[192]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_627
+u_eq/clk_gate_cdf_reg[193]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_626
+u_eq/clk_gate_cdf_reg[194]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_625
+u_eq/clk_gate_cdf_reg[195]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_624
+u_eq/clk_gate_cdf_reg[196]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_623
+u_eq/clk_gate_cdf_reg[197]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_622
+u_eq/clk_gate_cdf_reg[198]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_621
+u_eq/clk_gate_cdf_reg[199]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_620
+u_eq/clk_gate_cdf_reg[19]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_800
+u_eq/clk_gate_cdf_reg[1]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_818
+u_eq/clk_gate_cdf_reg[200]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_619
+u_eq/clk_gate_cdf_reg[201]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_618
+u_eq/clk_gate_cdf_reg[202]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_617
+u_eq/clk_gate_cdf_reg[203]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_616
+u_eq/clk_gate_cdf_reg[204]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_615
+u_eq/clk_gate_cdf_reg[205]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_614
+u_eq/clk_gate_cdf_reg[206]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_613
+u_eq/clk_gate_cdf_reg[207]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_612
+u_eq/clk_gate_cdf_reg[208]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_611
+u_eq/clk_gate_cdf_reg[209]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_610
+u_eq/clk_gate_cdf_reg[20]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_799
+u_eq/clk_gate_cdf_reg[210]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_609
+u_eq/clk_gate_cdf_reg[211]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_608
+u_eq/clk_gate_cdf_reg[212]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_607
+u_eq/clk_gate_cdf_reg[213]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_606
+u_eq/clk_gate_cdf_reg[214]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_605
+u_eq/clk_gate_cdf_reg[215]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_604
+u_eq/clk_gate_cdf_reg[216]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_603
+u_eq/clk_gate_cdf_reg[217]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_602
+u_eq/clk_gate_cdf_reg[218]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_601
+u_eq/clk_gate_cdf_reg[219]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_600
+u_eq/clk_gate_cdf_reg[21]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_798
+u_eq/clk_gate_cdf_reg[220]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_599
+u_eq/clk_gate_cdf_reg[221]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_598
+u_eq/clk_gate_cdf_reg[222]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_597
+u_eq/clk_gate_cdf_reg[223]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_596
+u_eq/clk_gate_cdf_reg[224]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_595
+u_eq/clk_gate_cdf_reg[225]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_594
+u_eq/clk_gate_cdf_reg[226]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_593
+u_eq/clk_gate_cdf_reg[227]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_592
+u_eq/clk_gate_cdf_reg[228]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_591
+u_eq/clk_gate_cdf_reg[229]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_590
+u_eq/clk_gate_cdf_reg[22]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_797
+u_eq/clk_gate_cdf_reg[230]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_589
+u_eq/clk_gate_cdf_reg[231]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_588
+u_eq/clk_gate_cdf_reg[232]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_587
+u_eq/clk_gate_cdf_reg[233]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_586
+u_eq/clk_gate_cdf_reg[234]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_585
+u_eq/clk_gate_cdf_reg[235]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_584
+u_eq/clk_gate_cdf_reg[236]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_583
+u_eq/clk_gate_cdf_reg[237]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_582
+u_eq/clk_gate_cdf_reg[238]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_581
+u_eq/clk_gate_cdf_reg[239]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_580
+u_eq/clk_gate_cdf_reg[23]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_796
+u_eq/clk_gate_cdf_reg[240]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_579
+u_eq/clk_gate_cdf_reg[241]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_578
+u_eq/clk_gate_cdf_reg[242]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_577
+u_eq/clk_gate_cdf_reg[243]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_576
+u_eq/clk_gate_cdf_reg[244]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_575
+u_eq/clk_gate_cdf_reg[245]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_574
+u_eq/clk_gate_cdf_reg[246]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_573
+u_eq/clk_gate_cdf_reg[247]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_572
+u_eq/clk_gate_cdf_reg[248]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_571
+u_eq/clk_gate_cdf_reg[249]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_570
+u_eq/clk_gate_cdf_reg[24]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_795
+u_eq/clk_gate_cdf_reg[250]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_569
+u_eq/clk_gate_cdf_reg[251]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_568
+u_eq/clk_gate_cdf_reg[252]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_567
+u_eq/clk_gate_cdf_reg[253]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_566
+u_eq/clk_gate_cdf_reg[254]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_565
+u_eq/clk_gate_cdf_reg[255]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_564
+u_eq/clk_gate_cdf_reg[25]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_794
+u_eq/clk_gate_cdf_reg[26]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_793
+u_eq/clk_gate_cdf_reg[27]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_792
+u_eq/clk_gate_cdf_reg[28]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_791
+u_eq/clk_gate_cdf_reg[29]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_790
+u_eq/clk_gate_cdf_reg[2]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_817
+u_eq/clk_gate_cdf_reg[30]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_789
+u_eq/clk_gate_cdf_reg[31]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_788
+u_eq/clk_gate_cdf_reg[32]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_787
+u_eq/clk_gate_cdf_reg[33]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_786
+u_eq/clk_gate_cdf_reg[34]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_785
+u_eq/clk_gate_cdf_reg[35]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_784
+u_eq/clk_gate_cdf_reg[36]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_783
+u_eq/clk_gate_cdf_reg[37]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_782
+u_eq/clk_gate_cdf_reg[38]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_781
+u_eq/clk_gate_cdf_reg[39]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_780
+u_eq/clk_gate_cdf_reg[3]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_816
+u_eq/clk_gate_cdf_reg[40]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_779
+u_eq/clk_gate_cdf_reg[41]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_778
+u_eq/clk_gate_cdf_reg[42]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_777
+u_eq/clk_gate_cdf_reg[43]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_776
+u_eq/clk_gate_cdf_reg[44]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_775
+u_eq/clk_gate_cdf_reg[45]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_774
+u_eq/clk_gate_cdf_reg[46]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_773
+u_eq/clk_gate_cdf_reg[47]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_772
+u_eq/clk_gate_cdf_reg[48]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_771
+u_eq/clk_gate_cdf_reg[49]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_770
+u_eq/clk_gate_cdf_reg[4]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_815
+u_eq/clk_gate_cdf_reg[50]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_769
+u_eq/clk_gate_cdf_reg[51]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_768
+u_eq/clk_gate_cdf_reg[52]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_767
+u_eq/clk_gate_cdf_reg[53]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_766
+u_eq/clk_gate_cdf_reg[54]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_765
+u_eq/clk_gate_cdf_reg[55]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_764
+u_eq/clk_gate_cdf_reg[56]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_763
+u_eq/clk_gate_cdf_reg[57]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_762
+u_eq/clk_gate_cdf_reg[58]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_761
+u_eq/clk_gate_cdf_reg[59]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_760
+u_eq/clk_gate_cdf_reg[5]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_814
+u_eq/clk_gate_cdf_reg[60]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_759
+u_eq/clk_gate_cdf_reg[61]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_758
+u_eq/clk_gate_cdf_reg[62]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_757
+u_eq/clk_gate_cdf_reg[63]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_756
+u_eq/clk_gate_cdf_reg[64]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_755
+u_eq/clk_gate_cdf_reg[65]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_754
+u_eq/clk_gate_cdf_reg[66]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_753
+u_eq/clk_gate_cdf_reg[67]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_752
+u_eq/clk_gate_cdf_reg[68]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_751
+u_eq/clk_gate_cdf_reg[69]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_750
+u_eq/clk_gate_cdf_reg[6]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_813
+u_eq/clk_gate_cdf_reg[70]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_749
+u_eq/clk_gate_cdf_reg[71]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_748
+u_eq/clk_gate_cdf_reg[72]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_747
+u_eq/clk_gate_cdf_reg[73]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_746
+u_eq/clk_gate_cdf_reg[74]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_745
+u_eq/clk_gate_cdf_reg[75]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_744
+u_eq/clk_gate_cdf_reg[76]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_743
+u_eq/clk_gate_cdf_reg[77]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_742
+u_eq/clk_gate_cdf_reg[78]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_741
+u_eq/clk_gate_cdf_reg[79]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_740
+u_eq/clk_gate_cdf_reg[7]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_812
+u_eq/clk_gate_cdf_reg[80]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_739
+u_eq/clk_gate_cdf_reg[81]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_738
+u_eq/clk_gate_cdf_reg[82]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_737
+u_eq/clk_gate_cdf_reg[83]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_736
+u_eq/clk_gate_cdf_reg[84]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_735
+u_eq/clk_gate_cdf_reg[85]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_734
+u_eq/clk_gate_cdf_reg[86]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_733
+u_eq/clk_gate_cdf_reg[87]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_732
+u_eq/clk_gate_cdf_reg[88]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_731
+u_eq/clk_gate_cdf_reg[89]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_730
+u_eq/clk_gate_cdf_reg[8]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_811
+u_eq/clk_gate_cdf_reg[90]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_729
+u_eq/clk_gate_cdf_reg[91]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_728
+u_eq/clk_gate_cdf_reg[92]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_727
+u_eq/clk_gate_cdf_reg[93]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_726
+u_eq/clk_gate_cdf_reg[94]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_725
+u_eq/clk_gate_cdf_reg[95]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_724
+u_eq/clk_gate_cdf_reg[96]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_723
+u_eq/clk_gate_cdf_reg[97]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_722
+u_eq/clk_gate_cdf_reg[98]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_721
+u_eq/clk_gate_cdf_reg[99]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_720
+u_eq/clk_gate_cdf_reg[9]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_810
+u_eq/clk_gate_hist_reg[0]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_307
+u_eq/clk_gate_hist_reg[100]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_207
+u_eq/clk_gate_hist_reg[101]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_206
+u_eq/clk_gate_hist_reg[102]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_205
+u_eq/clk_gate_hist_reg[103]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_204
+u_eq/clk_gate_hist_reg[104]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_203
+u_eq/clk_gate_hist_reg[105]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_202
+u_eq/clk_gate_hist_reg[106]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_201
+u_eq/clk_gate_hist_reg[107]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_200
+u_eq/clk_gate_hist_reg[108]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_199
+u_eq/clk_gate_hist_reg[109]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_198
+u_eq/clk_gate_hist_reg[10]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_297
+u_eq/clk_gate_hist_reg[110]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_197
+u_eq/clk_gate_hist_reg[111]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_196
+u_eq/clk_gate_hist_reg[112]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_195
+u_eq/clk_gate_hist_reg[113]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_194
+u_eq/clk_gate_hist_reg[114]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_193
+u_eq/clk_gate_hist_reg[115]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_192
+u_eq/clk_gate_hist_reg[116]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_191
+u_eq/clk_gate_hist_reg[117]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_190
+u_eq/clk_gate_hist_reg[118]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_189
+u_eq/clk_gate_hist_reg[119]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_188
+u_eq/clk_gate_hist_reg[11]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_296
+u_eq/clk_gate_hist_reg[120]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_187
+u_eq/clk_gate_hist_reg[121]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_186
+u_eq/clk_gate_hist_reg[122]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_185
+u_eq/clk_gate_hist_reg[123]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_184
+u_eq/clk_gate_hist_reg[124]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_183
+u_eq/clk_gate_hist_reg[125]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_182
+u_eq/clk_gate_hist_reg[126]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_181
+u_eq/clk_gate_hist_reg[127]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_180
+u_eq/clk_gate_hist_reg[128]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_179
+u_eq/clk_gate_hist_reg[129]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_178
+u_eq/clk_gate_hist_reg[12]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_295
+u_eq/clk_gate_hist_reg[130]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_177
+u_eq/clk_gate_hist_reg[131]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_176
+u_eq/clk_gate_hist_reg[132]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_175
+u_eq/clk_gate_hist_reg[133]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_174
+u_eq/clk_gate_hist_reg[134]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_173
+u_eq/clk_gate_hist_reg[135]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_172
+u_eq/clk_gate_hist_reg[136]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_171
+u_eq/clk_gate_hist_reg[137]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_170
+u_eq/clk_gate_hist_reg[138]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_169
+u_eq/clk_gate_hist_reg[139]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_168
+u_eq/clk_gate_hist_reg[13]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_294
+u_eq/clk_gate_hist_reg[140]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_167
+u_eq/clk_gate_hist_reg[141]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_166
+u_eq/clk_gate_hist_reg[142]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_165
+u_eq/clk_gate_hist_reg[143]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_164
+u_eq/clk_gate_hist_reg[144]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_163
+u_eq/clk_gate_hist_reg[145]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_162
+u_eq/clk_gate_hist_reg[146]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_161
+u_eq/clk_gate_hist_reg[147]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_160
+u_eq/clk_gate_hist_reg[148]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_159
+u_eq/clk_gate_hist_reg[149]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_158
+u_eq/clk_gate_hist_reg[14]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_293
+u_eq/clk_gate_hist_reg[150]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_157
+u_eq/clk_gate_hist_reg[151]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_156
+u_eq/clk_gate_hist_reg[152]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_155
+u_eq/clk_gate_hist_reg[153]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_154
+u_eq/clk_gate_hist_reg[154]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_153
+u_eq/clk_gate_hist_reg[155]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_152
+u_eq/clk_gate_hist_reg[156]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_151
+u_eq/clk_gate_hist_reg[157]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_150
+u_eq/clk_gate_hist_reg[158]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_149
+u_eq/clk_gate_hist_reg[159]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_148
+u_eq/clk_gate_hist_reg[15]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_292
+u_eq/clk_gate_hist_reg[160]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_147
+u_eq/clk_gate_hist_reg[161]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_146
+u_eq/clk_gate_hist_reg[162]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_145
+u_eq/clk_gate_hist_reg[163]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_144
+u_eq/clk_gate_hist_reg[164]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_143
+u_eq/clk_gate_hist_reg[165]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_142
+u_eq/clk_gate_hist_reg[166]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_141
+u_eq/clk_gate_hist_reg[167]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_140
+u_eq/clk_gate_hist_reg[168]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_139
+u_eq/clk_gate_hist_reg[169]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_138
+u_eq/clk_gate_hist_reg[16]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_291
+u_eq/clk_gate_hist_reg[170]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_137
+u_eq/clk_gate_hist_reg[171]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_136
+u_eq/clk_gate_hist_reg[172]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_135
+u_eq/clk_gate_hist_reg[173]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_134
+u_eq/clk_gate_hist_reg[174]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_133
+u_eq/clk_gate_hist_reg[175]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_132
+u_eq/clk_gate_hist_reg[176]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_131
+u_eq/clk_gate_hist_reg[177]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_130
+u_eq/clk_gate_hist_reg[178]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_129
+u_eq/clk_gate_hist_reg[179]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_128
+u_eq/clk_gate_hist_reg[17]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_290
+u_eq/clk_gate_hist_reg[180]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_127
+u_eq/clk_gate_hist_reg[181]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_126
+u_eq/clk_gate_hist_reg[182]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_125
+u_eq/clk_gate_hist_reg[183]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_124
+u_eq/clk_gate_hist_reg[184]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_123
+u_eq/clk_gate_hist_reg[185]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_122
+u_eq/clk_gate_hist_reg[186]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_121
+u_eq/clk_gate_hist_reg[187]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_120
+u_eq/clk_gate_hist_reg[188]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_119
+u_eq/clk_gate_hist_reg[189]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_118
+u_eq/clk_gate_hist_reg[18]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_289
+u_eq/clk_gate_hist_reg[190]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_117
+u_eq/clk_gate_hist_reg[191]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_116
+u_eq/clk_gate_hist_reg[192]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_115
+u_eq/clk_gate_hist_reg[193]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_114
+u_eq/clk_gate_hist_reg[194]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_113
+u_eq/clk_gate_hist_reg[195]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_112
+u_eq/clk_gate_hist_reg[196]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_111
+u_eq/clk_gate_hist_reg[197]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_110
+u_eq/clk_gate_hist_reg[198]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_109
+u_eq/clk_gate_hist_reg[199]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_108
+u_eq/clk_gate_hist_reg[19]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_288
+u_eq/clk_gate_hist_reg[1]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_306
+u_eq/clk_gate_hist_reg[200]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_107
+u_eq/clk_gate_hist_reg[201]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_106
+u_eq/clk_gate_hist_reg[202]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_105
+u_eq/clk_gate_hist_reg[203]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_104
+u_eq/clk_gate_hist_reg[204]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_103
+u_eq/clk_gate_hist_reg[205]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_102
+u_eq/clk_gate_hist_reg[206]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_101
+u_eq/clk_gate_hist_reg[207]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_100
+u_eq/clk_gate_hist_reg[208]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_99
+u_eq/clk_gate_hist_reg[209]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_98
+u_eq/clk_gate_hist_reg[20]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_287
+u_eq/clk_gate_hist_reg[210]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_97
+u_eq/clk_gate_hist_reg[211]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_96
+u_eq/clk_gate_hist_reg[212]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_95
+u_eq/clk_gate_hist_reg[213]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_94
+u_eq/clk_gate_hist_reg[214]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_93
+u_eq/clk_gate_hist_reg[215]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_92
+u_eq/clk_gate_hist_reg[216]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_91
+u_eq/clk_gate_hist_reg[217]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_90
+u_eq/clk_gate_hist_reg[218]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_89
+u_eq/clk_gate_hist_reg[219]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_88
+u_eq/clk_gate_hist_reg[21]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_286
+u_eq/clk_gate_hist_reg[220]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_87
+u_eq/clk_gate_hist_reg[221]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_86
+u_eq/clk_gate_hist_reg[222]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_85
+u_eq/clk_gate_hist_reg[223]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_84
+u_eq/clk_gate_hist_reg[224]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_83
+u_eq/clk_gate_hist_reg[225]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_82
+u_eq/clk_gate_hist_reg[226]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_81
+u_eq/clk_gate_hist_reg[227]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_80
+u_eq/clk_gate_hist_reg[228]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_79
+u_eq/clk_gate_hist_reg[229]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_78
+u_eq/clk_gate_hist_reg[22]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_285
+u_eq/clk_gate_hist_reg[230]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_77
+u_eq/clk_gate_hist_reg[231]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_76
+u_eq/clk_gate_hist_reg[232]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_75
+u_eq/clk_gate_hist_reg[233]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_74
+u_eq/clk_gate_hist_reg[234]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_73
+u_eq/clk_gate_hist_reg[235]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_72
+u_eq/clk_gate_hist_reg[236]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_71
+u_eq/clk_gate_hist_reg[237]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_70
+u_eq/clk_gate_hist_reg[238]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_69
+u_eq/clk_gate_hist_reg[239]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_68
+u_eq/clk_gate_hist_reg[23]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_284
+u_eq/clk_gate_hist_reg[240]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_67
+u_eq/clk_gate_hist_reg[241]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_66
+u_eq/clk_gate_hist_reg[242]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_65
+u_eq/clk_gate_hist_reg[243]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_64
+u_eq/clk_gate_hist_reg[244]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_63
+u_eq/clk_gate_hist_reg[245]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_62
+u_eq/clk_gate_hist_reg[246]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_61
+u_eq/clk_gate_hist_reg[247]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_60
+u_eq/clk_gate_hist_reg[248]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_59
+u_eq/clk_gate_hist_reg[249]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_58
+u_eq/clk_gate_hist_reg[24]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_283
+u_eq/clk_gate_hist_reg[250]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_57
+u_eq/clk_gate_hist_reg[251]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_56
+u_eq/clk_gate_hist_reg[252]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_55
+u_eq/clk_gate_hist_reg[253]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_54
+u_eq/clk_gate_hist_reg[254]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_53
+u_eq/clk_gate_hist_reg[255]            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_52
+u_eq/clk_gate_hist_reg[25]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_282
+u_eq/clk_gate_hist_reg[26]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_281
+u_eq/clk_gate_hist_reg[27]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_280
+u_eq/clk_gate_hist_reg[28]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_279
+u_eq/clk_gate_hist_reg[29]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_278
+u_eq/clk_gate_hist_reg[2]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_305
+u_eq/clk_gate_hist_reg[30]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_277
+u_eq/clk_gate_hist_reg[31]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_276
+u_eq/clk_gate_hist_reg[32]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_275
+u_eq/clk_gate_hist_reg[33]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_274
+u_eq/clk_gate_hist_reg[34]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_273
+u_eq/clk_gate_hist_reg[35]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_272
+u_eq/clk_gate_hist_reg[36]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_271
+u_eq/clk_gate_hist_reg[37]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_270
+u_eq/clk_gate_hist_reg[38]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_269
+u_eq/clk_gate_hist_reg[39]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_268
+u_eq/clk_gate_hist_reg[3]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_304
+u_eq/clk_gate_hist_reg[40]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_267
+u_eq/clk_gate_hist_reg[41]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_266
+u_eq/clk_gate_hist_reg[42]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_265
+u_eq/clk_gate_hist_reg[43]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_264
+u_eq/clk_gate_hist_reg[44]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_263
+u_eq/clk_gate_hist_reg[45]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_262
+u_eq/clk_gate_hist_reg[46]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_261
+u_eq/clk_gate_hist_reg[47]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_260
+u_eq/clk_gate_hist_reg[48]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_259
+u_eq/clk_gate_hist_reg[49]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_258
+u_eq/clk_gate_hist_reg[4]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_303
+u_eq/clk_gate_hist_reg[50]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_257
+u_eq/clk_gate_hist_reg[51]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_256
+u_eq/clk_gate_hist_reg[52]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_255
+u_eq/clk_gate_hist_reg[53]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_254
+u_eq/clk_gate_hist_reg[54]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_253
+u_eq/clk_gate_hist_reg[55]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_252
+u_eq/clk_gate_hist_reg[56]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_251
+u_eq/clk_gate_hist_reg[57]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_250
+u_eq/clk_gate_hist_reg[58]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_249
+u_eq/clk_gate_hist_reg[59]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_248
+u_eq/clk_gate_hist_reg[5]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_302
+u_eq/clk_gate_hist_reg[60]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_247
+u_eq/clk_gate_hist_reg[61]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_246
+u_eq/clk_gate_hist_reg[62]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_245
+u_eq/clk_gate_hist_reg[63]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_244
+u_eq/clk_gate_hist_reg[64]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_243
+u_eq/clk_gate_hist_reg[65]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_242
+u_eq/clk_gate_hist_reg[66]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_241
+u_eq/clk_gate_hist_reg[67]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_240
+u_eq/clk_gate_hist_reg[68]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_239
+u_eq/clk_gate_hist_reg[69]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_238
+u_eq/clk_gate_hist_reg[6]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_301
+u_eq/clk_gate_hist_reg[70]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_237
+u_eq/clk_gate_hist_reg[71]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_236
+u_eq/clk_gate_hist_reg[72]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_235
+u_eq/clk_gate_hist_reg[73]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_234
+u_eq/clk_gate_hist_reg[74]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_233
+u_eq/clk_gate_hist_reg[75]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_232
+u_eq/clk_gate_hist_reg[76]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_231
+u_eq/clk_gate_hist_reg[77]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_230
+u_eq/clk_gate_hist_reg[78]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_229
+u_eq/clk_gate_hist_reg[79]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_228
+u_eq/clk_gate_hist_reg[7]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_300
+u_eq/clk_gate_hist_reg[80]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_227
+u_eq/clk_gate_hist_reg[81]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_226
+u_eq/clk_gate_hist_reg[82]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_225
+u_eq/clk_gate_hist_reg[83]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_224
+u_eq/clk_gate_hist_reg[84]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_223
+u_eq/clk_gate_hist_reg[85]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_222
+u_eq/clk_gate_hist_reg[86]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_221
+u_eq/clk_gate_hist_reg[87]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_220
+u_eq/clk_gate_hist_reg[88]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_219
+u_eq/clk_gate_hist_reg[89]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_218
+u_eq/clk_gate_hist_reg[8]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_299
+u_eq/clk_gate_hist_reg[90]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_217
+u_eq/clk_gate_hist_reg[91]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_216
+u_eq/clk_gate_hist_reg[92]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_215
+u_eq/clk_gate_hist_reg[93]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_214
+u_eq/clk_gate_hist_reg[94]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_213
+u_eq/clk_gate_hist_reg[95]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_212
+u_eq/clk_gate_hist_reg[96]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_211
+u_eq/clk_gate_hist_reg[97]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_210
+u_eq/clk_gate_hist_reg[98]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_209
+u_eq/clk_gate_hist_reg[99]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_208
+u_eq/clk_gate_hist_reg[9]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_298
+u_eq/clk_gate_idx_reg                  7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_51
+u_eq/clk_gate_lut_reg[0]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_563
+u_eq/clk_gate_lut_reg[100]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_463
+u_eq/clk_gate_lut_reg[101]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_462
+u_eq/clk_gate_lut_reg[102]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_461
+u_eq/clk_gate_lut_reg[103]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_460
+u_eq/clk_gate_lut_reg[104]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_459
+u_eq/clk_gate_lut_reg[105]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_458
+u_eq/clk_gate_lut_reg[106]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_457
+u_eq/clk_gate_lut_reg[107]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_456
+u_eq/clk_gate_lut_reg[108]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_455
+u_eq/clk_gate_lut_reg[109]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_454
+u_eq/clk_gate_lut_reg[10]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_553
+u_eq/clk_gate_lut_reg[110]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_453
+u_eq/clk_gate_lut_reg[111]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_452
+u_eq/clk_gate_lut_reg[112]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_451
+u_eq/clk_gate_lut_reg[113]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_450
+u_eq/clk_gate_lut_reg[114]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_449
+u_eq/clk_gate_lut_reg[115]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_448
+u_eq/clk_gate_lut_reg[116]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_447
+u_eq/clk_gate_lut_reg[117]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_446
+u_eq/clk_gate_lut_reg[118]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_445
+u_eq/clk_gate_lut_reg[119]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_444
+u_eq/clk_gate_lut_reg[11]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_552
+u_eq/clk_gate_lut_reg[120]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_443
+u_eq/clk_gate_lut_reg[121]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_442
+u_eq/clk_gate_lut_reg[122]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_441
+u_eq/clk_gate_lut_reg[123]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_440
+u_eq/clk_gate_lut_reg[124]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_439
+u_eq/clk_gate_lut_reg[125]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_438
+u_eq/clk_gate_lut_reg[126]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_437
+u_eq/clk_gate_lut_reg[127]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_436
+u_eq/clk_gate_lut_reg[128]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_435
+u_eq/clk_gate_lut_reg[129]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_434
+u_eq/clk_gate_lut_reg[12]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_551
+u_eq/clk_gate_lut_reg[130]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_433
+u_eq/clk_gate_lut_reg[131]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_432
+u_eq/clk_gate_lut_reg[132]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_431
+u_eq/clk_gate_lut_reg[133]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_430
+u_eq/clk_gate_lut_reg[134]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_429
+u_eq/clk_gate_lut_reg[135]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_428
+u_eq/clk_gate_lut_reg[136]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_427
+u_eq/clk_gate_lut_reg[137]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_426
+u_eq/clk_gate_lut_reg[138]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_425
+u_eq/clk_gate_lut_reg[139]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_424
+u_eq/clk_gate_lut_reg[13]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_550
+u_eq/clk_gate_lut_reg[140]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_423
+u_eq/clk_gate_lut_reg[141]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_422
+u_eq/clk_gate_lut_reg[142]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_421
+u_eq/clk_gate_lut_reg[143]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_420
+u_eq/clk_gate_lut_reg[144]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_419
+u_eq/clk_gate_lut_reg[145]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_418
+u_eq/clk_gate_lut_reg[146]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_417
+u_eq/clk_gate_lut_reg[147]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_416
+u_eq/clk_gate_lut_reg[148]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_415
+u_eq/clk_gate_lut_reg[149]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_414
+u_eq/clk_gate_lut_reg[14]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_549
+u_eq/clk_gate_lut_reg[150]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_413
+u_eq/clk_gate_lut_reg[151]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_412
+u_eq/clk_gate_lut_reg[152]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_411
+u_eq/clk_gate_lut_reg[153]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_410
+u_eq/clk_gate_lut_reg[154]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_409
+u_eq/clk_gate_lut_reg[155]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_408
+u_eq/clk_gate_lut_reg[156]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_407
+u_eq/clk_gate_lut_reg[157]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_406
+u_eq/clk_gate_lut_reg[158]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_405
+u_eq/clk_gate_lut_reg[159]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_404
+u_eq/clk_gate_lut_reg[15]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_548
+u_eq/clk_gate_lut_reg[160]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_403
+u_eq/clk_gate_lut_reg[161]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_402
+u_eq/clk_gate_lut_reg[162]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_401
+u_eq/clk_gate_lut_reg[163]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_400
+u_eq/clk_gate_lut_reg[164]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_399
+u_eq/clk_gate_lut_reg[165]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_398
+u_eq/clk_gate_lut_reg[166]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_397
+u_eq/clk_gate_lut_reg[167]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_396
+u_eq/clk_gate_lut_reg[168]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_395
+u_eq/clk_gate_lut_reg[169]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_394
+u_eq/clk_gate_lut_reg[16]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_547
+u_eq/clk_gate_lut_reg[170]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_393
+u_eq/clk_gate_lut_reg[171]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_392
+u_eq/clk_gate_lut_reg[172]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_391
+u_eq/clk_gate_lut_reg[173]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_390
+u_eq/clk_gate_lut_reg[174]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_389
+u_eq/clk_gate_lut_reg[175]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_388
+u_eq/clk_gate_lut_reg[176]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_387
+u_eq/clk_gate_lut_reg[177]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_386
+u_eq/clk_gate_lut_reg[178]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_385
+u_eq/clk_gate_lut_reg[179]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_384
+u_eq/clk_gate_lut_reg[17]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_546
+u_eq/clk_gate_lut_reg[180]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_383
+u_eq/clk_gate_lut_reg[181]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_382
+u_eq/clk_gate_lut_reg[182]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_381
+u_eq/clk_gate_lut_reg[183]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_380
+u_eq/clk_gate_lut_reg[184]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_379
+u_eq/clk_gate_lut_reg[185]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_378
+u_eq/clk_gate_lut_reg[186]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_377
+u_eq/clk_gate_lut_reg[187]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_376
+u_eq/clk_gate_lut_reg[188]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_375
+u_eq/clk_gate_lut_reg[189]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_374
+u_eq/clk_gate_lut_reg[18]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_545
+u_eq/clk_gate_lut_reg[190]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_373
+u_eq/clk_gate_lut_reg[191]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_372
+u_eq/clk_gate_lut_reg[192]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_371
+u_eq/clk_gate_lut_reg[193]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_370
+u_eq/clk_gate_lut_reg[194]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_369
+u_eq/clk_gate_lut_reg[195]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_368
+u_eq/clk_gate_lut_reg[196]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_367
+u_eq/clk_gate_lut_reg[197]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_366
+u_eq/clk_gate_lut_reg[198]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_365
+u_eq/clk_gate_lut_reg[199]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_364
+u_eq/clk_gate_lut_reg[19]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_544
+u_eq/clk_gate_lut_reg[1]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_562
+u_eq/clk_gate_lut_reg[200]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_363
+u_eq/clk_gate_lut_reg[201]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_362
+u_eq/clk_gate_lut_reg[202]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_361
+u_eq/clk_gate_lut_reg[203]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_360
+u_eq/clk_gate_lut_reg[204]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_359
+u_eq/clk_gate_lut_reg[205]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_358
+u_eq/clk_gate_lut_reg[206]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_357
+u_eq/clk_gate_lut_reg[207]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_356
+u_eq/clk_gate_lut_reg[208]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_355
+u_eq/clk_gate_lut_reg[209]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_354
+u_eq/clk_gate_lut_reg[20]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_543
+u_eq/clk_gate_lut_reg[210]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_353
+u_eq/clk_gate_lut_reg[211]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_352
+u_eq/clk_gate_lut_reg[212]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_351
+u_eq/clk_gate_lut_reg[213]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_350
+u_eq/clk_gate_lut_reg[214]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_349
+u_eq/clk_gate_lut_reg[215]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_348
+u_eq/clk_gate_lut_reg[216]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_347
+u_eq/clk_gate_lut_reg[217]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_346
+u_eq/clk_gate_lut_reg[218]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_345
+u_eq/clk_gate_lut_reg[219]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_344
+u_eq/clk_gate_lut_reg[21]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_542
+u_eq/clk_gate_lut_reg[220]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_343
+u_eq/clk_gate_lut_reg[221]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_342
+u_eq/clk_gate_lut_reg[222]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_341
+u_eq/clk_gate_lut_reg[223]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_340
+u_eq/clk_gate_lut_reg[224]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_339
+u_eq/clk_gate_lut_reg[225]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_338
+u_eq/clk_gate_lut_reg[226]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_337
+u_eq/clk_gate_lut_reg[227]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_336
+u_eq/clk_gate_lut_reg[228]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_335
+u_eq/clk_gate_lut_reg[229]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_334
+u_eq/clk_gate_lut_reg[22]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_541
+u_eq/clk_gate_lut_reg[230]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_333
+u_eq/clk_gate_lut_reg[231]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_332
+u_eq/clk_gate_lut_reg[232]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_331
+u_eq/clk_gate_lut_reg[233]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_330
+u_eq/clk_gate_lut_reg[234]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_329
+u_eq/clk_gate_lut_reg[235]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_328
+u_eq/clk_gate_lut_reg[236]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_327
+u_eq/clk_gate_lut_reg[237]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_326
+u_eq/clk_gate_lut_reg[238]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_325
+u_eq/clk_gate_lut_reg[239]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_324
+u_eq/clk_gate_lut_reg[23]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_540
+u_eq/clk_gate_lut_reg[240]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_323
+u_eq/clk_gate_lut_reg[241]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_322
+u_eq/clk_gate_lut_reg[242]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_321
+u_eq/clk_gate_lut_reg[243]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_320
+u_eq/clk_gate_lut_reg[244]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_319
+u_eq/clk_gate_lut_reg[245]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_318
+u_eq/clk_gate_lut_reg[246]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_317
+u_eq/clk_gate_lut_reg[247]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_316
+u_eq/clk_gate_lut_reg[248]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_315
+u_eq/clk_gate_lut_reg[249]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_314
+u_eq/clk_gate_lut_reg[24]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_539
+u_eq/clk_gate_lut_reg[250]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_313
+u_eq/clk_gate_lut_reg[251]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_312
+u_eq/clk_gate_lut_reg[252]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_311
+u_eq/clk_gate_lut_reg[253]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_310
+u_eq/clk_gate_lut_reg[254]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_309
+u_eq/clk_gate_lut_reg[255]             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_308
+u_eq/clk_gate_lut_reg[25]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_538
+u_eq/clk_gate_lut_reg[26]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_537
+u_eq/clk_gate_lut_reg[27]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_536
+u_eq/clk_gate_lut_reg[28]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_535
+u_eq/clk_gate_lut_reg[29]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_534
+u_eq/clk_gate_lut_reg[2]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_561
+u_eq/clk_gate_lut_reg[30]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_533
+u_eq/clk_gate_lut_reg[31]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_532
+u_eq/clk_gate_lut_reg[32]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_531
+u_eq/clk_gate_lut_reg[33]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_530
+u_eq/clk_gate_lut_reg[34]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_529
+u_eq/clk_gate_lut_reg[35]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_528
+u_eq/clk_gate_lut_reg[36]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_527
+u_eq/clk_gate_lut_reg[37]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_526
+u_eq/clk_gate_lut_reg[38]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_525
+u_eq/clk_gate_lut_reg[39]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_524
+u_eq/clk_gate_lut_reg[3]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_560
+u_eq/clk_gate_lut_reg[40]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_523
+u_eq/clk_gate_lut_reg[41]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_522
+u_eq/clk_gate_lut_reg[42]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_521
+u_eq/clk_gate_lut_reg[43]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_520
+u_eq/clk_gate_lut_reg[44]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_519
+u_eq/clk_gate_lut_reg[45]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_518
+u_eq/clk_gate_lut_reg[46]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_517
+u_eq/clk_gate_lut_reg[47]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_516
+u_eq/clk_gate_lut_reg[48]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_515
+u_eq/clk_gate_lut_reg[49]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_514
+u_eq/clk_gate_lut_reg[4]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_559
+u_eq/clk_gate_lut_reg[50]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_513
+u_eq/clk_gate_lut_reg[51]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_512
+u_eq/clk_gate_lut_reg[52]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_511
+u_eq/clk_gate_lut_reg[53]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_510
+u_eq/clk_gate_lut_reg[54]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_509
+u_eq/clk_gate_lut_reg[55]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_508
+u_eq/clk_gate_lut_reg[56]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_507
+u_eq/clk_gate_lut_reg[57]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_506
+u_eq/clk_gate_lut_reg[58]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_505
+u_eq/clk_gate_lut_reg[59]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_504
+u_eq/clk_gate_lut_reg[5]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_558
+u_eq/clk_gate_lut_reg[60]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_503
+u_eq/clk_gate_lut_reg[61]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_502
+u_eq/clk_gate_lut_reg[62]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_501
+u_eq/clk_gate_lut_reg[63]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_500
+u_eq/clk_gate_lut_reg[64]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_499
+u_eq/clk_gate_lut_reg[65]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_498
+u_eq/clk_gate_lut_reg[66]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_497
+u_eq/clk_gate_lut_reg[67]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_496
+u_eq/clk_gate_lut_reg[68]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_495
+u_eq/clk_gate_lut_reg[69]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_494
+u_eq/clk_gate_lut_reg[6]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_557
+u_eq/clk_gate_lut_reg[70]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_493
+u_eq/clk_gate_lut_reg[71]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_492
+u_eq/clk_gate_lut_reg[72]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_491
+u_eq/clk_gate_lut_reg[73]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_490
+u_eq/clk_gate_lut_reg[74]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_489
+u_eq/clk_gate_lut_reg[75]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_488
+u_eq/clk_gate_lut_reg[76]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_487
+u_eq/clk_gate_lut_reg[77]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_486
+u_eq/clk_gate_lut_reg[78]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_485
+u_eq/clk_gate_lut_reg[79]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_484
+u_eq/clk_gate_lut_reg[7]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_556
+u_eq/clk_gate_lut_reg[80]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_483
+u_eq/clk_gate_lut_reg[81]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_482
+u_eq/clk_gate_lut_reg[82]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_481
+u_eq/clk_gate_lut_reg[83]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_480
+u_eq/clk_gate_lut_reg[84]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_479
+u_eq/clk_gate_lut_reg[85]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_478
+u_eq/clk_gate_lut_reg[86]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_477
+u_eq/clk_gate_lut_reg[87]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_476
+u_eq/clk_gate_lut_reg[88]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_475
+u_eq/clk_gate_lut_reg[89]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_474
+u_eq/clk_gate_lut_reg[8]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_555
+u_eq/clk_gate_lut_reg[90]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_473
+u_eq/clk_gate_lut_reg[91]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_472
+u_eq/clk_gate_lut_reg[92]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_471
+u_eq/clk_gate_lut_reg[93]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_470
+u_eq/clk_gate_lut_reg[94]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_469
+u_eq/clk_gate_lut_reg[95]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_468
+u_eq/clk_gate_lut_reg[96]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_467
+u_eq/clk_gate_lut_reg[97]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_466
+u_eq/clk_gate_lut_reg[98]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_465
+u_eq/clk_gate_lut_reg[99]              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_464
+u_eq/clk_gate_lut_reg[9]               7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_554
+u_eq/clk_gate_ml                       7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_49
+u_eq/clk_gate_ml_0                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_48
+u_eq/clk_gate_ml_1                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_47
+u_eq/clk_gate_ml_10                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_38
+u_eq/clk_gate_ml_11                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_37
+u_eq/clk_gate_ml_12                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_36
+u_eq/clk_gate_ml_13                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_35
+u_eq/clk_gate_ml_14                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_34
+u_eq/clk_gate_ml_15                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_33
+u_eq/clk_gate_ml_16                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_32
+u_eq/clk_gate_ml_17                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_31
+u_eq/clk_gate_ml_18                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_30
+u_eq/clk_gate_ml_19                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_29
+u_eq/clk_gate_ml_2                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_46
+u_eq/clk_gate_ml_20                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_28
+u_eq/clk_gate_ml_21                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_27
+u_eq/clk_gate_ml_22                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_26
+u_eq/clk_gate_ml_23                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_25
+u_eq/clk_gate_ml_24                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_24
+u_eq/clk_gate_ml_25                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_23
+u_eq/clk_gate_ml_26                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_22
+u_eq/clk_gate_ml_27                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_21
+u_eq/clk_gate_ml_28                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_20
+u_eq/clk_gate_ml_29                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_19
+u_eq/clk_gate_ml_3                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_45
+u_eq/clk_gate_ml_30                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_18
+u_eq/clk_gate_ml_31                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_17
+u_eq/clk_gate_ml_32                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_16
+u_eq/clk_gate_ml_33                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_15
+u_eq/clk_gate_ml_34                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_14
+u_eq/clk_gate_ml_35                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_13
+u_eq/clk_gate_ml_36                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_12
+u_eq/clk_gate_ml_37                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_11
+u_eq/clk_gate_ml_38                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_10
+u_eq/clk_gate_ml_39                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_9
+u_eq/clk_gate_ml_4                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_44
+u_eq/clk_gate_ml_40                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_8
+u_eq/clk_gate_ml_41                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_7
+u_eq/clk_gate_ml_42                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_6
+u_eq/clk_gate_ml_43                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_5
+u_eq/clk_gate_ml_44                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_4
+u_eq/clk_gate_ml_45                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_3
+u_eq/clk_gate_ml_46                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_2
+u_eq/clk_gate_ml_47                    7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_1
+u_eq/clk_gate_ml_5                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_43
+u_eq/clk_gate_ml_6                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_42
+u_eq/clk_gate_ml_7                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_41
+u_eq/clk_gate_ml_8                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_40
+u_eq/clk_gate_ml_9                     7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_39
+u_eq/clk_gate_o_gray_eq_reg            7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_50
+u_eq/clk_gate_use_cnt_reg              7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_hist_eq_core_820
+u_eq/div_140/u_div/u_add_B3          327.0833      0.2    327.0833       0.0000  0.0000  hist_eq_core_DW01_add_29
+u_eq/div_140/u_div/u_add_B5          353.2602      0.2    353.2602       0.0000  0.0000  hist_eq_core_DW01_add_30
+u_eq/div_140/u_div/u_add_B6          321.4922      0.2    321.4922       0.0000  0.0000  hist_eq_core_DW01_add_31
+u_eq/div_140/u_div/u_add_B7          384.5199      0.2    384.5199       0.0000  0.0000  hist_eq_core_DW01_sub_2
+u_eq/div_140/u_div/u_add_PartRem_0_1
+                                     172.3096      0.1    172.3096       0.0000  0.0000  hist_eq_core_DW01_add_696
+u_eq/div_140/u_div/u_add_PartRem_0_2
+                                     193.6577      0.1    193.6577       0.0000  0.0000  hist_eq_core_DW01_add_103
+u_eq/div_140/u_div/u_add_PartRem_0_3
+                                     161.1273      0.1    161.1273       0.0000  0.0000  hist_eq_core_DW01_add_104
+u_eq/div_140/u_div/u_add_PartRem_0_4
+                                     176.3759      0.1    176.3759       0.0000  0.0000  hist_eq_core_DW01_add_105
+u_eq/div_140/u_div/u_add_PartRem_0_5
+                                     190.3539      0.1    190.3539       0.0000  0.0000  hist_eq_core_DW01_add_241
+u_eq/div_140/u_div/u_add_PartRem_0_6
+                                     189.8456      0.1    189.8456       0.0000  0.0000  hist_eq_core_DW01_add_238
+u_eq/div_140/u_div/u_add_PartRem_0_7
+                                     206.3649      0.1    206.3649       0.0000  0.0000  hist_eq_core_DW01_add_108
+u_eq/div_140/u_div/u_add_PartRem_1_1
+                                     485.1609      0.3    485.1609       0.0000  0.0000  hist_eq_core_DW01_add_689
+u_eq/div_140/u_div/u_add_PartRem_1_2
+                                     471.9454      0.3    471.9454       0.0000  0.0000  hist_eq_core_DW01_add_153
+u_eq/div_140/u_div/u_add_PartRem_1_3
+                                     472.1995      0.3    472.1995       0.0000  0.0000  hist_eq_core_DW01_add_473
+u_eq/div_140/u_div/u_add_PartRem_1_4
+                                     503.4593      0.3    503.4593       0.0000  0.0000  hist_eq_core_DW01_add_455
+u_eq/div_140/u_div/u_add_PartRem_1_5
+                                     517.6913      0.3    517.6913       0.0000  0.0000  hist_eq_core_DW01_add_126
+u_eq/div_140/u_div/u_add_PartRem_1_6
+                                     528.6195      0.3    528.6195       0.0000  0.0000  hist_eq_core_DW01_add_480
+u_eq/div_140/u_div/u_add_PartRem_1_7
+                                     597.7467      0.4    597.7467       0.0000  0.0000  hist_eq_core_DW01_add_101
+u_eq/div_140/u_div/u_add_PartRem_2_1
+                                     433.3155      0.3    433.3155       0.0000  0.0000  hist_eq_core_DW01_add_165
+u_eq/div_140/u_div/u_add_PartRem_2_2
+                                     435.6028      0.3    435.6028       0.0000  0.0000  hist_eq_core_DW01_add_207
+u_eq/div_140/u_div/u_add_PartRem_2_3
+                                     476.2659      0.3    476.2659       0.0000  0.0000  hist_eq_core_DW01_add_90
+u_eq/div_140/u_div/u_add_PartRem_2_4
+                                     456.9509      0.3    456.9509       0.0000  0.0000  hist_eq_core_DW01_add_465
+u_eq/div_140/u_div/u_add_PartRem_2_5
+                                     486.6858      0.3    486.6858       0.0000  0.0000  hist_eq_core_DW01_add_92
+u_eq/div_140/u_div/u_add_PartRem_2_6
+                                     474.9951      0.3    474.9951       0.0000  0.0000  hist_eq_core_DW01_add_93
+u_eq/div_140/u_div/u_add_PartRem_2_7
+                                     516.6748      0.3    516.6748       0.0000  0.0000  hist_eq_core_DW01_add_94
+u_eq/div_140/u_div/u_add_PartRem_3_1
+                                     428.7409      0.3    428.7409       0.0000  0.0000  hist_eq_core_DW01_add_566
+u_eq/div_140/u_div/u_add_PartRem_3_2
+                                     435.8570      0.3    435.8570       0.0000  0.0000  hist_eq_core_DW01_add_561
+u_eq/div_140/u_div/u_add_PartRem_3_3
+                                     440.1774      0.3    440.1774       0.0000  0.0000  hist_eq_core_DW01_add_557
+u_eq/div_140/u_div/u_add_PartRem_3_4
+                                     436.8735      0.3    436.8735       0.0000  0.0000  hist_eq_core_DW01_add_552
+u_eq/div_140/u_div/u_add_PartRem_3_5
+                                     436.1111      0.3    436.1111       0.0000  0.0000  hist_eq_core_DW01_add_326
+u_eq/div_140/u_div/u_add_PartRem_3_6
+                                     487.7023      0.3    487.7023       0.0000  0.0000  hist_eq_core_DW01_add_308
+u_eq/div_140/u_div/u_add_PartRem_3_7
+                                     461.0172      0.3    461.0172       0.0000  0.0000  hist_eq_core_DW01_add_87
+u_eq/div_140/u_div/u_add_PartRem_4_1
+                                     368.2547      0.2    368.2547       0.0000  0.0000  hist_eq_core_DW01_add_181
+u_eq/div_140/u_div/u_add_PartRem_4_2
+                                     371.5585      0.2    371.5585       0.0000  0.0000  hist_eq_core_DW01_add_173
+u_eq/div_140/u_div/u_add_PartRem_4_3
+                                     390.1110      0.2    390.1110       0.0000  0.0000  hist_eq_core_DW01_add_179
+u_eq/div_140/u_div/u_add_PartRem_4_4
+                                     401.2934      0.2    401.2934       0.0000  0.0000  hist_eq_core_DW01_add_113
+u_eq/div_140/u_div/u_add_PartRem_4_5
+                                     406.1221      0.2    406.1221       0.0000  0.0000  hist_eq_core_DW01_add_178
+u_eq/div_140/u_div/u_add_PartRem_4_6
+                                     401.5475      0.2    401.5475       0.0000  0.0000  hist_eq_core_DW01_add_691
+u_eq/div_140/u_div/u_add_PartRem_4_7
+                                     399.5144      0.2    399.5144       0.0000  0.0000  hist_eq_core_DW01_add_80
+u_eq/div_140/u_div/u_add_PartRem_5_1
+                                     350.7187      0.2    350.7187       0.0000  0.0000  hist_eq_core_DW01_add_624
+u_eq/div_140/u_div/u_add_PartRem_5_2
+                                     351.7353      0.2    351.7353       0.0000  0.0000  hist_eq_core_DW01_add_614
+u_eq/div_140/u_div/u_add_PartRem_5_3
+                                     344.3651      0.2    344.3651       0.0000  0.0000  hist_eq_core_DW01_add_619
+u_eq/div_140/u_div/u_add_PartRem_5_4
+                                     388.8403      0.2    388.8403       0.0000  0.0000  hist_eq_core_DW01_add_70
+u_eq/div_140/u_div/u_add_PartRem_5_5
+                                     358.0889      0.2    358.0889       0.0000  0.0000  hist_eq_core_DW01_add_620
+u_eq/div_140/u_div/u_add_PartRem_5_6
+                                     335.9784      0.2    335.9784       0.0000  0.0000  hist_eq_core_DW01_add_652
+u_eq/div_140/u_div/u_add_PartRem_5_7
+                                     332.4204      0.2    332.4204       0.0000  0.0000  hist_eq_core_DW01_add_73
+u_eq/div_140/u_div/u_add_PartRem_6_1
+                                     315.1386      0.2    315.1386       0.0000  0.0000  hist_eq_core_DW01_add_60
+u_eq/div_140/u_div/u_add_PartRem_6_2
+                                     299.3816      0.2    299.3816       0.0000  0.0000  hist_eq_core_DW01_add_61
+u_eq/div_140/u_div/u_add_PartRem_6_3
+                                     281.5916      0.2    281.5916       0.0000  0.0000  hist_eq_core_DW01_add_655
+u_eq/div_140/u_div/u_add_PartRem_6_4
+                                     283.8788      0.2    283.8788       0.0000  0.0000  hist_eq_core_DW01_add_63
+u_eq/div_140/u_div/u_add_PartRem_6_5
+                                     281.3374      0.2    281.3374       0.0000  0.0000  hist_eq_core_DW01_add_618
+u_eq/div_140/u_div/u_add_PartRem_6_6
+                                     284.8954      0.2    284.8954       0.0000  0.0000  hist_eq_core_DW01_add_673
+u_eq/div_140/u_div/u_add_PartRem_6_7
+                                     288.4534      0.2    288.4534       0.0000  0.0000  hist_eq_core_DW01_add_66
+u_eq/div_140/u_div/u_add_PartRem_7_1
+                                     258.4644      0.2    258.4644       0.0000  0.0000  hist_eq_core_DW01_add_53
+u_eq/div_140/u_div/u_add_PartRem_7_2
+                                     247.0280      0.1    247.0280       0.0000  0.0000  hist_eq_core_DW01_add_54
+u_eq/div_140/u_div/u_add_PartRem_7_3
+                                     223.6467      0.1    223.6467       0.0000  0.0000  hist_eq_core_DW01_add_55
+u_eq/div_140/u_div/u_add_PartRem_7_4
+                                     204.5859      0.1    204.5859       0.0000  0.0000  hist_eq_core_DW01_add_56
+u_eq/div_140/u_div/u_add_PartRem_7_5
+                                     217.5473      0.1    217.5473       0.0000  0.0000  hist_eq_core_DW01_add_57
+u_eq/div_140/u_div/u_add_PartRem_7_6
+                                     214.7517      0.1    214.7517       0.0000  0.0000  hist_eq_core_DW01_add_58
+u_eq/div_140/u_div/u_add_PartRem_7_7
+                                     216.0224      0.1    216.0224       0.0000  0.0000  hist_eq_core_DW01_add_59
+u_eq/div_140/u_div/u_add_PartRem_8_1
+                                     172.3096      0.1    172.3096       0.0000  0.0000  hist_eq_core_DW01_add_692
+u_eq/div_140/u_div/u_add_PartRem_8_2
+                                     153.5030      0.1    153.5030       0.0000  0.0000  hist_eq_core_DW01_add_648
+u_eq/div_140/u_div/u_add_PartRem_8_3
+                                     174.8511      0.1    174.8511       0.0000  0.0000  hist_eq_core_DW01_add_266
+u_eq/div_140/u_div/u_add_PartRem_8_4
+                                     158.0776      0.1    158.0776       0.0000  0.0000  hist_eq_core_DW01_add_654
+u_eq/div_140/u_div/u_add_PartRem_8_5
+                                     176.1218      0.1    176.1218       0.0000  0.0000  hist_eq_core_DW01_add_447
+u_eq/div_140/u_div/u_add_PartRem_8_6
+                                     169.2599      0.1    169.2599       0.0000  0.0000  hist_eq_core_DW01_add_239
+u_eq/div_140/u_div/u_add_PartRem_8_7
+                                     161.1273      0.1    161.1273       0.0000  0.0000  hist_eq_core_DW01_add_52
+u_eq/div_140/u_div/u_add_PartRem_9_1
+                                      94.0333      0.1     94.0333       0.0000  0.0000  hist_eq_core_DW01_add_393
+u_eq/div_140/u_div/u_add_PartRem_9_2
+                                      94.5416      0.1     94.5416       0.0000  0.0000  hist_eq_core_DW01_add_384
+u_eq/div_140/u_div/u_add_PartRem_9_3
+                                      95.5581      0.1     95.5581       0.0000  0.0000  hist_eq_core_DW01_add_563
+u_eq/div_140/u_div/u_add_PartRem_9_4
+                                      98.0996      0.1     98.0996       0.0000  0.0000  hist_eq_core_DW01_add_42
+u_eq/div_140/u_div/u_add_PartRem_9_5
+                                      97.8454      0.1     97.8454       0.0000  0.0000  hist_eq_core_DW01_add_398
+u_eq/div_140/u_div/u_add_PartRem_9_6
+                                     100.8952      0.1    100.8952       0.0000  0.0000  hist_eq_core_DW01_add_385
+u_eq/div_140/u_div/u_add_PartRem_9_7
+                                     102.9283      0.1    102.9283       0.0000  0.0000  hist_eq_core_DW01_add_45
+u_eq/mult_140                        568.2660      0.3    568.2660       0.0000  0.0000  hist_eq_core_DW_mult_uns_2
+u_eq/r409                             78.7846      0.0     78.7846       0.0000  0.0000  hist_eq_core_DW01_add_28_DW01_add_1
+u_eq/r412                             28.7183      0.0     28.7183       0.0000  0.0000  hist_eq_core_DW01_inc_1_DW01_inc_2
+u_eq/sub_140                         424.4205      0.3    424.4205       0.0000  0.0000  hist_eq_core_DW01_sub_4
+u_gray                               546.4096      0.3     85.9007      91.4918  0.0000  rgb2gray
+u_gray/add_0_root_add_0_root_add_21_2
+                                      68.1106      0.0     68.1106       0.0000  0.0000  rgb2gray_DW01_add_0_DW01_add_2
+u_gray/add_1_root_add_0_root_add_21_2
+                                      77.0056      0.0     77.0056       0.0000  0.0000  rgb2gray_DW01_add_1_DW01_add_3
+u_gray/clk_gate_o_gray_reg             7.3702      0.0      0.0000       7.3702  0.0000  SNPS_CLOCK_GATE_HIGH_rgb2gray
+u_gray/mult_21                       109.2819      0.1    109.2819       0.0000  0.0000  rgb2gray_DW_mult_uns_2
+u_gray/mult_21_2                     107.2488      0.1    107.2488       0.0000  0.0000  rgb2gray_DW_mult_uns_1
+--------------------------------  -----------  -------  ----------  -----------  ------  -------------------------------------
+Total                                                   68452.9238  100401.8767  0.0000
+
+1
