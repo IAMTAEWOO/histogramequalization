@@ -21,7 +21,7 @@ Histogram Equalization (HE) for grayscale images.
 
 ## Simulation & Verification
 - RTL vs C reference comparison
-- ModelSim testbench provided
+- Testbench provided
 
 ## Results
 - Target clock: 133 MHz (7.5 ns)
